@@ -77,6 +77,99 @@ export const profile = {
   projects: {
     AI: [
       {
+        title: "RAG Chatbot",
+
+        description:
+          "An AI-powered Retrieval-Augmented Generation (RAG) chatbot that enables users to upload documents, retrieve relevant context using semantic search, and generate accurate, context-aware answers. Built with Next.js, LangChain, vector embeddings, and multiple LLM providers including OpenAI, Gemini, and Groq.",
+
+        tags: [
+          "Next.js",
+          "React",
+          "Node.js",
+          "TypeScript",
+          "LangChain",
+          "RAG",
+          "Retrieval-Augmented Generation",
+          "Vector Search",
+          "Embeddings",
+          "Semantic Search",
+          "Document Q&A",
+          "OpenAI API",
+          "Gemini API",
+          "Groq API",
+          "Zod",
+          "Structured Output",
+          "Prompt Engineering",
+          "ChromaDB",
+          "FAISS",
+        ],
+
+        highlights: [
+          "Upload and chat with documents using Retrieval-Augmented Generation (RAG)",
+          "Semantic document retrieval powered by embeddings and vector search",
+          "Context-aware AI responses with reduced hallucinations",
+          "Multi-model support (OpenAI, Gemini, Groq)",
+          "Structured outputs with LangChain and Zod validation",
+          "Scalable document ingestion, chunking, and retrieval pipeline",
+        ],
+
+        links: {
+          live: "https://smart-rag-assistant-chatbot.vercel.app/",
+          repo: "https://github.com/DhruvSolanki01259/rag-chatbot.git",
+          document: "#",
+        },
+
+        imageAlt:
+          "RAG Chatbot - Next.js + LangChain Retrieval-Augmented Generation Project Showcase",
+
+        image: "/placeholder.svg",
+      },
+      {
+        title: "AI Multi-Tool Productivity Assistant Agent",
+
+        description:
+          "An AI-powered productivity assistant that intelligently understands user intent, automatically selects the appropriate tool, and executes tasks such as weather lookup, calculations, currency conversion, note management, email drafting, and text summarization. Built using Next.js, LangChain, and multiple LLM providers including OpenAI, Gemini, and Groq.",
+
+        tags: [
+          "Next.js",
+          "React",
+          "Node.js",
+          "TypeScript",
+          "LangChain",
+          "AI Agents",
+          "Tool Calling",
+          "LangChain Agents",
+          "OpenAI API",
+          "Gemini API",
+          "Groq API",
+          "Zod",
+          "Structured Output",
+          "Prompt Engineering",
+          "LCEL",
+          "Custom Tools",
+        ],
+
+        highlights: [
+          "Automatic AI tool selection using LangChain Agents",
+          "Multiple custom tools including Weather, Calculator, Currency Converter, Email Drafting, Notes Manager, and Text Summarizer",
+          "Structured JSON responses with Zod validation",
+          "Multi-model support (OpenAI, Gemini, Groq)",
+          "Prompt engineering with intelligent tool routing",
+          "Conversation history and streaming AI responses",
+        ],
+
+        links: {
+          live: "https://ai-multi-tool-assistant-agent.vercel.app/",
+          repo: "https://github.com/DhruvSolanki01259/ai-multi-tool-assistant.git",
+          document: "#",
+        },
+
+        imageAlt:
+          "AI Multi-Tool Productivity Assistant Agent - Next.js + LangChain Project Showcase",
+
+        image: "/placeholder.svg",
+      },
+      {
         title: "AI Study Buddy",
         description:
           "An AI-powered learning assistant that converts programming questions into structured, beginner-friendly explanations with topics, examples, and summaries. Built using Next.js, LangChain, and multiple LLM providers like OpenAI, Gemini, and Groq.",
